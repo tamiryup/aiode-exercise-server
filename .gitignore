@@ -81,3 +81,6 @@ $RECYCLE.BIN/
 
 # SQLite database file
 *.db
+
+#dist folder
+dist/
