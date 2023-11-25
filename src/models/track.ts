@@ -9,6 +9,7 @@ export class Track {
       this.title = title;
       this.artist = artist;
       this.genre = genre;
+      this.id = id;
     }
 
     getId() {
