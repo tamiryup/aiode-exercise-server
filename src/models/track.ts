@@ -12,6 +12,10 @@ export class Track {
       this.id = id;
     }
 
+    setId(id: number) {
+        this.id = id;
+    }
+
     getId() {
         return this.id;
     }

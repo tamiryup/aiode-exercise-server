@@ -1,6 +1,6 @@
 const sqlite3 = require('sqlite3').verbose();
 
-const dbName = 'music-library.db';
+const dbName = 'music-library.db'; // env
 
 const db = new sqlite3.Database(dbName, (err) => {
   if (err) {
